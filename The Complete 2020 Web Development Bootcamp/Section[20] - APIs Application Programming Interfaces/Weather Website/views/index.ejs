@@ -1,0 +1,14 @@
+<%- include('./partials/header.ejs') %>
+<%- include('./partials/nav.ejs') %>
+<div class="container">
+<h1><%= cityname %> Is <%= weather %>C</h1>
+<img src=<%= img %> alt="weather Condition">
+<h2> <%= description %></h2>
+
+<form method="POST" action="/">
+    <label for="city">City Name: </label>
+    <input type="text" name="city" id="city">
+    <button type="submit">Submit</button>
+</form>
+</div>
+<%- include('./partials/footer.ejs') %>
