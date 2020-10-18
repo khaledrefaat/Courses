@@ -15,4 +15,9 @@ class Person extends Component {
 		);
 	}
 }
+
+// const Person = () => (<p>Hey Hey Hey!</p>);
+
+
+
 export default Person;

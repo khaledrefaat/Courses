@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2e86de;
+  color: #fff;
+  outline: none;
+  transform: translateY(0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  transition: all .3s ease-out;
+  margin: 15px;
+}
+
+button:hover {
+  background-color: #54a0ff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+}
+
+button:active {
+  transform: translateY(3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
