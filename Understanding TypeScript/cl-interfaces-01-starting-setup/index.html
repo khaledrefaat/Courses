@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Understanding TypeScript</title>
-  <script src="dist/app.js" defer></script>
+
+  <style>
+    h1 {
+      text-align: center;
+      color: #fff;
+      background-color: #2980b9;
+      padding: .5rem 1.5rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+      cursor: pointer;
+    }
+
+    h1::selection {
+      background-color: transparent;
+    }
+  </style>
 </head>
+
 <body>
+  <h1>Understanding TypeScript</h1>
+  <input id="user-input"></input>
+  <script src="dist/app.js" defer></script>
+  <script src="dist/backgroundColor.js"></script>
 </body>
+
 </html>
