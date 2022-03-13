@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start:dev": "lite-server",
+    "start:build": "tsc -w",
+    "start": "concurrently npm:start:*"
   },
   "keywords": [
     "typescript",
@@ -15,5 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
   }
 }
